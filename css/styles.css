@@ -10861,7 +10861,7 @@ header.masthead {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%); */
-  background-image: url('../assets/img/main.jpg');
+  background-image: url('../assets/img/main.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
