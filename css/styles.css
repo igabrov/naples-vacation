@@ -646,15 +646,27 @@ progress {
   .container-sm, .container {
     max-width: 540px;
   }
+  .px-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
+  .px-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 @media (min-width: 992px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
+  }
+  .px-5 {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 @media (min-width: 1200px) {
@@ -10919,4 +10931,8 @@ header.masthead .bg-circle-4 {
   header.masthead .masthead-content .masthead-subheading {
     font-size: 4rem;
   }
+}
+
+.disclamer {
+  font-size: 0.6rem;
 }
